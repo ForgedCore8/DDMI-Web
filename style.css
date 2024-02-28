@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #f8f8f8;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #8c5378;
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the header stays above other content */
+    transition: padding 0.3s; /* Smooth transition for padding changes */
+}
+
+
+#navlogo {
+    width: 3%;
+    height: 3%;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+
+.scrolled-header {
+    padding: 5px 20px; /* Reduce the padding */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.scrolled-header nav ul {
+    /* Adjust the layout as needed, e.g., padding, margins, etc. */
+    padding-left: 10px; /* Example: add padding to the left of the list */
+}
+
+
+nav ul li {
+    margin: 0 10px; /* Adjust as necessary */
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px; /* Adds space around the links */
+    display: block; /* Makes the padding effective */
+}
+
+
+.button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #8c5378;
+    padding: 10px 20px;
+    margin: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #8c5378;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+#home {
+    background: 
+    
+    linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),
+    url(assets/unknown.png);
+
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 5% 3% 3% 3%;
+    font-size: xx-large;
+    color: white;
+    background-color: #f8f8f8;
+}
+
+#how-to {
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    padding: 1%;
+    background-color: #8c5378;
+}
+
+#download {
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+    margin: 5% 5%;
+    color: black;
+    background-color: #f8f8f8;
+}
+
